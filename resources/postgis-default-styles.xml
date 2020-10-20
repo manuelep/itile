@@ -1,0 +1,19 @@
+<Map background-color="rgba(0,0,0,0)">
+  <Style name="default-way">
+    <Rule>
+      <LineSymbolizer stroke="#3083d9" stroke-width="1" />
+      <MarkersSymbolizer fill="#3083d9" placement="line" width="4" height="4" />
+    </Rule>
+  </Style>
+  <Style name="default-point">
+    <Rule>
+      <MarkersSymbolizer fill="#3083d9"/>
+    </Rule>
+  </Style>
+  <Style name="default-polygon">
+    <Rule>
+      <LineSymbolizer stroke="#7f7f7f" stroke-width="1" />
+      <PolygonSymbolizer fill-opacity="0.4" fill="#3083d9"/>
+    </Rule>
+  </Style>
+</Map>
