@@ -7,7 +7,7 @@ from .common import db
 from py4web import action, redirect, URL, response, HTTP #, request, abort
 # from .common import db, session, T, cache, auth, logger, authenticated, unauthenticated
 
-from swissknife.py4web import brap
+from kilimanjaro.frameworks.py4web.controller import brap
 
 @action('itile/get/<name>/<zoom:int>/<xtile:int>/<ytile:int>', method=['GET'])
 def itile(name, zoom, xtile, ytile):
